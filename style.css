@@ -1,0 +1,92 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* Shared style */
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #fff;
+    width: 150px;
+    height: 63px;
+    border: none;
+}
+
+/* Heading section start */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 40px 260px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 43px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner section */
+.banner-container{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-content{
+    color: #727272;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner-container img{
+    width: 100%;
+    margin-top: 50px;
+}
+/* heading section end */
+
+
+
+/* resposive mobile device */
+@media screen and (max-width: 565px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav h2{
+        margin-bottom: 20px;
+    }
+}
+
+/* tab device */
+@media screen and (min-width: 566px) and (max-width:767px) {
+    nav h2{
+        margin-bottom: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
